@@ -1,0 +1,26 @@
+{
+  "name": "mytodolista",
+  "version": "1.0.1",
+  "description": "A ToDo Lista with Node Express and MongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^4.4.6",
+    "express": "^4.13.4",
+    "body-parser": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/patofloyd/mytodolista.git"
+  },
+  "author": "Patricio Vergara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patofloyd/mytodolista/issues"
+  },
+  "homepage": "https://github.com/patofloyd/mytodolista#readme"
+}

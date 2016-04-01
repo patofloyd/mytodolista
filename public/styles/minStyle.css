@@ -1,0 +1,58 @@
+body{
+	background-image: url(imgs/beach.jpg);
+	background-size: 100%;
+}
+
+h1{
+	font-size: 35px;
+}
+
+h2{
+	font-size: 25px;	
+}
+
+b{
+	font-size: 20px;
+}
+
+button{
+	font-family: Courier, monospace;
+	border: 1px ridge black;
+}
+
+input{
+	border: 1px ridge black;
+}
+
+input[type=number] {
+   width: 50px;
+}
+
+#lada{
+	background-image: url(imgs/block.jpg);
+	background-size: 100%;
+	border: 3px ridge black;
+	padding-top: 10px;
+	padding-bottom: 35px;	
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: Courier, monospace;
+}
+
+#texter{
+	line-height: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.minLista{
+	font-style: italic;
+	list-style: none;
+	font-size: 20px;
+	padding: 0px;
+}
+
+.knapp{
+	box-sizing: 130px;
+}

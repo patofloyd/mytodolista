@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Att göra</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/styles/minStyle.css">
+	<script type="text/javascript" src="/scripts/minJS.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="lada">
+
+	<div id=texter>
+	
+		<h1>Att göra!</h1>
+
+		<h2>* Mina uppgifter</h2>
+
+		<form action="form_action.asp">
+			<ul id="lista" class="minLista">
+			</ul>
+		</form>
+
+		<div id="toCheck"></div>
+
+		<h2>* Lägg till uppgifter nedan</h2>
+
+		<b>Ny uppgift:</b> <input type="text" id="uppgift" size="30"> <button onclick="sendInfo()">- Lägg till -</button>
+
+		<h2>* Redigera genom att fylla i uppgiftens nummer och önskad ändring nedan</h2>
+
+		<b>Nº:</b> <input id="minId1" type="number"><br>
+		<b>Ändring:</b> <input id="uppgift1" size="30"><br/>
+		<button onclick="modifyInfo()">- Ändra uppgiften -</button>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+	var storlek	= document.forms[0];	// variabel för att lagra listan som en array och så vet vi hur lång är den (storlek.length).
+	var listan = document.getElementById('lista');	// skapa variabel listan för att ändra html innehållet och forma en lista med elementen från databasen.
+	var toCheck = document.getElementById('toCheck'); // för att lägga till 2 knappar om det finns uppgifter.
+	
+	showInfo();	// visa info
+
+</script>
+
+</body>
+</html>

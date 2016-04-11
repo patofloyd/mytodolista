@@ -1,4 +1,4 @@
-# mytodolista
+# mytodolist
 
 Välkommen till tjänsten "Att Göra".
 

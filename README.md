@@ -14,8 +14,8 @@ Att köra igång tjänsten:
 
 - Starta databasen Mongo DB om den inte startar av sig själv.
 - Deskomprimera filen var som helst i din dator. Vi rekommenderar i en mapp som du hittar enkelt.
-- Gå till mappen genom kommandofönstret där filen "server.js" finns och skriv "node server.js" utan citationstecken.
-- Tryck "Enter".
+- Gå till mappen genom kommandofönstret där filen "server.js" finns och skriv "npm install" utan citationstecken och tryck "Enter" för att package json installeras. 
+- Därefter skriv "node server.js" utan citationstecken och tryck "Enter".
 - Tjänsten startar på "http://localhost:4000" och du kan komma åt den genom din webbläsare (gärna Google Chrome).
 
 --------------------------------------------------------------------------------------------------

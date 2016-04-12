@@ -12,7 +12,7 @@ function doAjax(method, id, data){	// funktion för att anropa en ajax funktion.
       method: method, // Type of request (POST, GET, PUT, DELETE)
       url: url, // Destination of request.
       dataType: 'json', // type of response.
-      data: data // possibly data to send.
+      data: data // possibly data to send as json object.
     });
 }
 
@@ -37,7 +37,7 @@ function checkInfo() {	// funktion för att checka uppgifter som är klara.
 
 	for (var i = storlek.length; i >= 1; i--) { // for loop för att gå genom listan.
 		if ( document.getElementById("objekt" + i).checked ) {	// if sats för att ändra de som är markerade.
-			var request = doAjax('PUT', document.getElementById("objekt" + i).value, {text: document.getElementById("objekt" + i).name + " ✔"});
+			var request = doAjax('PUT', document.getElementById("objekt" + i).value, {text: document.getElementById("objekt" + i).name + " ✔"}); // Lägga till en ✔ på de som är markerade genom 'PUT' method.
 			request.done;			
 		}
 	}
@@ -51,7 +51,7 @@ function sendInfo(){	// funktion för att skicka info.
 		alert("Du måste fylla på rutan!");	// alert om rutan är tom.
 	}
 	else	// om allt är ok kör vi på att lagra info.
-		var request = doAjax('POST', false, {text: document.getElementById("uppgift").value});
+		var request = doAjax('POST', false, {text: document.getElementById("uppgift").value}); // ajax funktion med method "POST" för att spara info.
 		request.done(function(response){
 			document.getElementById("uppgift").value = ''; // rensa rutan.
 			showInfo();	// visa info					
@@ -69,7 +69,7 @@ function modifyInfo(){	// funktion för att redigera elementen.
 		alert("Numret finns inte i listan");	// alert om numret inte finns.
 	}		
 	else			// Om allt går bra ändrar vi elmentet.
-		var request = doAjax('PUT', document.getElementById("minId1").value, {text: document.getElementById("uppgift1").value});
+		var request = doAjax('PUT', document.getElementById("minId1").value, {text: document.getElementById("uppgift1").value}); // ajax funktion med method "PUT" för att uppdatera info.
 		request.done(function(response){
 			document.getElementById("minId1").value = '';		// rensa rutorna.
 			document.getElementById("uppgift1").value = '';
@@ -83,7 +83,7 @@ function deleteInfo(){	// funktion för att ta bort elementen.
 
 	for (var i = storlek.length; i >= 1; i--) {	// for loop för att gå genom listan.
 		if ( document.getElementById("objekt" + i).checked ) {	// if sats för att ta bort de som är markerade.
-			var request = doAjax('DELETE', document.getElementById("objekt" + i).value);
+			var request = doAjax('DELETE', document.getElementById("objekt" + i).value); // ajax funktion med method "DELETE" för att ta bort elementen.
 			request.done;		
 		}
 	}

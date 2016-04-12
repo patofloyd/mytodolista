@@ -1,7 +1,7 @@
 {
   "name": "mytodolista",
   "version": "1.0.1",
-  "description": "A ToDo Lista with Node Express and MongoDB",
+  "description": "A ToDo List with Node Express and MongoDB",
   "main": "server.js",
   "dependencies": {
     "mongoose": "^4.4.6",

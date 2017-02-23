@@ -1,3 +1,5 @@
+This was a ToDo list that I did to show what I could do to get my first internship.
+
 # mytodolist
 
 Välkommen till tjänsten "Att Göra".

@@ -1,18 +1,20 @@
-Välkommen till tjänsten "Att Göra".
+This was a ToDo list that I did to show what I could do to get my first internship.
 
-Tjänsten är gjord för att använda den genom en localhost i din dator.
+#VÃ¤lkommen till tjÃ¤nsten "Att GÃ¶ra".
+
+TjÃ¤nsten Ã¤r gjord fÃ¶r att anvÃ¤nda den genom en localhost i din dator.
 
 Kravspecifikation:
 
-- Node js. Installerade och fungerande. Gärna den senaste versionen.
-- Mongo db. Installerade och fungerande. Gärna den senaste versionen.
-- En aktualiserade webbläsare. Tjänsten är optimerade för användning med Google Chrome.
+- Node js. Installerade och fungerande. GÃ¤rna den senaste versionen.
+- Mongo db. Installerade och fungerande. GÃ¤rna den senaste versionen.
+- En aktualiserade webblÃ¤sare. TjÃ¤nsten Ã¤r optimerade fÃ¶r anvÃ¤ndning med Google Chrome.
 
-Att köra igång tjänsten:
+Att kÃ¶ra igÃ¥ng tjÃ¤nsten:
 
-- Starta databasen Mongo DB om den inte startar av sig själv.
+- Starta databasen Mongo DB om den inte startar av sig sjÃ¤lv.
 - Deskomprimera filen var som helst i din dator. Vi rekommenderar i en mapp som du hittar enkelt.
-- Gå till mappen genom kommandofönstret där filen "server.js" finns och skriv "npm install" utan citationstecken och tryck "Enter" för att package json installeras. 
-- Därefter skriv "node server.js" utan citationstecken och tryck "Enter".
-- Tjänsten startar på "http://localhost:4000" och du kan komma åt den genom din webbläsare (gärna Google Chrome).
+- GÃ¥ till mappen genom kommandofÃ¶nstret dÃ¤r filen "server.js" finns och skriv "npm install" utan citationstecken och tryck "Enter" fÃ¶r att package json installeras. 
+- DÃ¤refter skriv "node server.js" utan citationstecken och tryck "Enter".
+- TjÃ¤nsten startar pÃ¥ "http://localhost:4000" och du kan komma Ã¥t den genom din webblÃ¤sare (gÃ¤rna Google Chrome).
 

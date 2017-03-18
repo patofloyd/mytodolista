@@ -1,4 +1,4 @@
-This was a ToDo list that I did to show what I could do to get my first internship.
+This was a ToDo list that I did to show my capacities, to get my first internship.
 
 # mytodolist
 
